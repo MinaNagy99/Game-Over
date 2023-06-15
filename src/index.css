@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat+Alternates&display=swap');
+:root{
+  --bg-color: #272b30;
+  --light-bg: #24baef;
+  --border-color: #a8a8a83d;
+  --font-color: #aaa;
+}
+*  *::after *::before{
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.bg-border-color{
+  background-color: var(--border-color);
+}
+body{
+  background-color: var(--bg-color);
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: var(--font-color) 
+}
+.cursul-pointer{
+  cursor: pointer;
+}
+.navbar{
+  background-color: var(--bg-color) !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar a{
+  color: var(--font-color) !important;
+
+}
+.navbar-toggler {
+  color: var(--font-color) !important;
+  background-color: inherit;
+
+}
+.fontColor{
+  color: var(--font-color);
+}
+a{
+  text-decoration: none;
+  color:white;
+  padding: 0;
+
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+.logo-img{
+  background-image: url(img/logo2.99928cddb06369f42713.png);
+  background-position: center center;
+  background-size: cover;
+  
+  width: 200px;
+  height: 50px;
+}
+.typeOfGame{
+  background-color: var(--border-color);
+  margin-right: 3px;
+}
+.nameOfGame{
+  font-weight: 800;
+  color: var(--font-color);
+  
+}
+.myButton {
+	background-color:var(--bg-color);
+	border-radius:10px;
+	cursor:pointer;
+	color:var(--font-color);
+	font-family:Arial;
+	font-size:30px;
+  padding: 10px 15px;
+	text-decoration:none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 50;
+  display: none;
+}
+@media  screen and (max-width: 768px) {
+.rightNav{
+  width: 75%;
+  margin: auto;
+  border: solid rgb(23, 110, 156);
+  text-align: center;
+  background-color:rgb(23, 110, 156) ;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+}
+.status{
+  background-color: var(--light-bg);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.fa-plus{
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: small;
+}
+.item{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.playNow{
+  background-color: var(--light-bg);
+  color: var(--bg-color);
+  font-weight:bolder;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.free{
+  color: white;
+  font-size:large;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  padding:10px 28px ;  
+}
+.fa-plus{
+  background-color: var(--bg-color);
+}
+.itemDetails{
+  background-position: "top center";
+  background-repeat:no-repeat;
+  background-size: 100% 75%;
+  position: relative;
+  z-index: -1;
+  opacity: 0.1;
+  background-image: url('https://miro.medium.com/v2/resize:fit:640/format:webp/1*0fbjeuMrvKpCumBE1_Y6SA.jpeg')
+}
+
+.imgGaming{
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:70vh;
+  margin-top: 10vh;
+  background-image: url(img/gaming.d5751ff804c935b205d3.jpg);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.registrationForm{
+  height: 70vh;
+  margin-top: 10vh;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.details{
+  display: flex;
+  flex-direction: column;
+
+}
+ul {
+  list-style-type: none;
+}
+.search{
+ margin-top: 100px;
+}
